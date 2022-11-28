@@ -28,15 +28,15 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "host name or IP",
+    host: "lava4.horizxon.studio",
     port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "your password",
+    pass: "horizxon.studio",
     secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
     ClientID: process.env.Spotify_ClientID || "386285d11eea404f828142b7d55a49e7", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientSecret: process.env.Spotify_ClientSecret || "9f470a34d9964b5bbbb448100921bb62", //Spotify Client Secret
   },
 };
