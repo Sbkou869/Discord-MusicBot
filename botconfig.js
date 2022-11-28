@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.Token || "ODUwNDU1Njk2MjAwODI2OTEx.GXmXb1.7m9J7VYms32RohnP3kMz4wwSG3MCIUIzC1Y3-w", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "850455696200826911", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "d45mKFoS9Zw2y9WovaDRvjCZTaOfNHo2", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -36,7 +36,7 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
+    ClientID: process.env.Spotify_ClientID || "386285d11eea404f828142b7d55a49e7", //Spotify Client ID
     ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
   },
 };
